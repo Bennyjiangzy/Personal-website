@@ -1,0 +1,21 @@
+#nav-Project{
+    color: rgb(46,202,127);
+}
+
+.nav-item:hover{
+    background-color: black;
+    color: white;
+}
+.nav-item{
+    color: gray;
+}
+
+.big-r{
+
+    box-shadow: 5px 0px  4px #888888;
+}
+
+.big-r-b{
+
+    box-shadow: 5px 5px 7px #888888;
+}

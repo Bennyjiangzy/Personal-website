@@ -11,36 +11,40 @@
 
     
 
-    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/books_1f4da.png">
+    <link rel="icon" href="tom.jpg">
+    <link rel="stylesheet" href="/css/index.css" type="text/css" />
     
     <title>Benny's home</title>
 
 </head>
 
 <body>
-    <div class="container mt-3">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collapse roboto" id="navbarText">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-success" href="/project"><b>Project</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="/Resume" target="_blank">View Resume</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
 
-        <section style="height:690px;background-color:MediumSeaGreen;">
+    <div  class="pb-0 shadow rounded fixed-top" style="background-color: white;">
+        <div class="container ">
+    <nav class=" navbar-expand-lg  navbar pb-0 pt-0" >
+        <div class=" navbar-collapse " >
+            <ul class="navbar-nav ml-auto">
+                <div class="row" >
+                    <a class="nav-link nav-item" id="nav-Home" href="/" ><b>Home</b></a>
+                    <a class="nav-link nav-item" id="nav-Project" href="/project" onmouseover="A_project()" onmouseout="A_project2()"><b>Project</b></a>
+                    <a class="nav-link nav-item" href="Benny Resume.pdf" target="_blank"><b>View Resume</b></a>
+                </div>
+
+            </ul>
+        </div>
+    </nav>
+    </div>
+    </div>
+    
+    <div class="container mt-5 pt-5 ">
+       
+
+        <section style="height:690px;background-color:rgb(46,202,127); " class="big-r">
             <div class="row pl-2 mb-4">
                 <div class="col pt-3">
                     <a class="ml-5 mt-5 ">
-                        <img src="/Happy" alt="Happy-reminder" width="500">
+                        <img src="/Happy.png" alt="Happy-reminder" width="500">
                     </a>
                 </div>  
                 <div class="col  mt-1 mr-2">
@@ -61,7 +65,7 @@
             <div class="row pl-2 mt-5">
                 <div class="col pt-2">
                     <a class="ml-5 mt-5">
-                        <img src="/Pygame" alt="Happy-reminder" width="500">
+                        <img src="/Pygame.png" alt="Happy-reminder" width="500">
                     </a>
                 </div>  
                 <div class="col mr-2 ">
@@ -76,7 +80,7 @@
                 </div>
             </div>
         </section>
-        <section class=" h-25 p-5 roboto shadow rounded">
+        <section class=" h-25 p-5 big-r-b">
             <div class="text-center pr-1"><h3><b>Skills</b></h3></div>
                 <div class="d-flex mr-5 ml-5 pl-5 pr-5 justify-content-between" >
                     <ul>
@@ -113,17 +117,15 @@
           
         </section>
    
-<footer class="text-center bg-dark text-white mt-5 p-2">
-    <p>Hello, I am Benny!</p>
-    <p>Welcome to my Home Thank you!<span></span></p>
-</footer>
-</div>
+    <footer class="text-center bg-dark text-white mt-5 p-2">
+        <p>Hello, I am Benny!</p>
+        <p>Welcome to my Home Thank you!<span></span></p>
+    </footer>
+    </div>
+   
 
+    <script src="/script/content.js"></script>
 
-
-
-
-
-
-</body>
+    </body>
+  
 </html>

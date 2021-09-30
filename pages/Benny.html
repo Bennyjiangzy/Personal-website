@@ -9,38 +9,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/155/books_1f4da.png">
-    
+    <link rel="icon" href="tom.jpg">
+    <link rel="stylesheet" href="/css/Benny.css" type="text/css" />
     <title>Benny's home</title>
 </head>
 
 <body>
-    <div class="container mt-3">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="collapse navbar-collapse roboto" id="navbarText">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-success" href="/"><b>Home</b></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/project">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="/Resume" target="_blank">View Resume</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
 
-        <section style="height:250px;background-color:MediumSeaGreen">
+    <div  class="pb-0 shadow rounded fixed-top" style="background-color: white;">
+        <div class="container ">
+    <nav class=" navbar-expand-lg  navbar pb-0 pt-0" >
+        <div class=" navbar-collapse " >
+            <ul class="navbar-nav ml-auto">
+                <div class="row kk" >
+                    <a class="nav-link nav-item" id="nav-Home" href="/" onmouseover="A_home()" onmouseout="A_home2()"><b>Home</b></a>
+                    <a class="nav-link nav-item"  id="nav-Project" href="/project" ><b>Project</b></a>
+                    <a class="nav-link nav-item" href="Benny Resume.pdf" target="_blank"><b>View Resume</b></a>
+                </div>
+
+            </ul>
+        </div>
+    </nav>
+    </div>
+    </div>
+    
+    <div class="container mt-5 pt-5">
+       
+
+        <section style="height:200px;background-color:rgb(46,202,127)" class="big-r">
             <div class="row pt-2 pl-2">
                 <div class="col-3 avatar-cover">
                     <a class="ml-5 mt-5 cursor-default">
-                        <img src="/Me" alt="Benny Jiang" width="210">
+                        <img src="tom.jpg" alt="Benny Jiang" width="210">
                     </a>
                 </div>
-                <div class="avatar-texts col-9 text-center pt-5">
+                <div class="avatar-texts col-9 text-center pt-3">
                     <h2 class=" name"><b>Benny Jiang</b></h2>  
                     <h4 class=" mt-2 title">Contact Me</h4>
                     <div class="mt-2">
@@ -50,7 +53,7 @@
                 </div>
             </div>
         </section>
-        <section class=" h-25 p-5 roboto shadow rounded">
+        <section class=" h-25 p-5  big-r-b" >
             <div class="row">
                 <div class="about-me col-6">
                     <div class="p-2 pt-3">
@@ -60,7 +63,12 @@
                 </div>
                 <div class="addresses col-6 pl-5">
                     <table style="border-collapse: separate;  border-spacing: 0.5em;">
-                        <tbody><tr>
+                        <tbody>
+                        <tr>
+                            <td>Phone</td>
+                            <td class="pl-5 address-items"><a href="" class="text-success">1-236-984-9623</a></td>
+                        </tr>
+                        <tr>
                             <td>School-Email</td>
                             <td class="pl-5 address-items"><a href="#" class="text-success">zjiang35@my.bcit.ca</a></td>
                         </tr>
@@ -68,10 +76,7 @@
                             <td>Personal-Email</td>
                             <td class="pl-5 address-items"><a href="" class="text-success">Bennyjiangzy@gmail.com</a></td>
                         </tr>
-                        <tr>
-                            <td>Phone</td>
-                            <td class="pl-5 address-items"><a href="" class="text-success">1-236-984-9623</a></td>
-                        </tr>
+                        
                     </tbody></table>
                 </div>
             </div>
@@ -83,5 +88,5 @@
 </footer>
 </div>
 
-
+<script src="/script/content.js"></script>
 </body></html>
